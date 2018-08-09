@@ -709,9 +709,9 @@
     "@babel/plugin-transform-react-jsx-self" "7.0.0-beta.56"
     "@babel/plugin-transform-react-jsx-source" "7.0.0-beta.56"
 
-"@babel/runtime-corejs2@7.0.0-beta.56":
-  version "7.0.0-beta.56"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.0.0-beta.56.tgz#6df5fbaa78e4bfdc22dfc5b36493ef238d55a027"
+"@babel/runtime-corejs2@7.0.0-rc.1":
+  version "7.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.0.0-rc.1.tgz#cfef134702b731d69ad35f9b44b9326cc0d879bc"
   dependencies:
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
