@@ -196,6 +196,7 @@ export default class Draggable extends Component<Props> {
           : zIndexOptions.dragging,
         // Moving in response to user input
         transform: getTranslate(change),
+        WebkitTransform: getTranslate(change),
 
         // ## Performance
         pointerEvents: 'none',
@@ -211,6 +212,7 @@ export default class Draggable extends Component<Props> {
     ): NotDraggingStyle => {
       const style: NotDraggingStyle = {
         transform: getTranslate(current),
+        WebkitTransform: getTranslate(current),
         // use the global animation for animation - or opt out of it
         transition: shouldAnimateDisplacement ? null : 'none',
         // transition: css.outOfTheWay,

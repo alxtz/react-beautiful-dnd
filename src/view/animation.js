@@ -23,5 +23,5 @@ export const physics = (() => {
 })();
 
 export const css = {
-  outOfTheWay: 'transform 0.2s cubic-bezier(0.2, 0, 0, 1)',
+  outOfTheWay: '-webkit-transform 0.2s cubic-bezier(0.2, 0, 0, 1)',
 };
